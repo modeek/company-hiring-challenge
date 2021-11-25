@@ -79,6 +79,7 @@ To launch on Android `yarn android`
 ## Demo Pictures
 
 ### `test-screen.tsx`
-
+<img height="600" alt="Screen Shot" src="https://user-images.githubusercontent.com/35684384/143502907-8b230bfe-7605-451f-a453-bf870ee3451f.png">
 
 ### `test-two-screen.tsx`
+<img height="600" alt="Screen Shot" src="https://user-images.githubusercontent.com/35684384/143502980-8899618b-9a5f-40e8-b2ac-fcd1da2d208e.png">

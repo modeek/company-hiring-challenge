@@ -22,7 +22,6 @@ export const CharacterStoreModel = types
       const characterApi = new CharacterApi(self.environment.api)
       const result = await characterApi.getCharacters()
 
-
       if (result.kind === "ok") {
         self.saveCharacters(result.characters)
       } else {

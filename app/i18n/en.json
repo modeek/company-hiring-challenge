@@ -7,18 +7,21 @@
   "errors": {
     "invalidEmail": "Invalid email address."
   },
+  "testScreen": {
+    "title": "Rick and Morty Characters",
+    "helperText": "Tap a link to find out more!"
+  },
   "welcomeScreen": {
     "poweredBy": "POWERED BY IGNITE",
     "readyForLaunch": "Ready for launch.",
     "continue": "CONTINUE"
   },
-  "testScreen": {
-    "title": "Welcome to the challenge",
-    "text": "Put your content here!"
-  },
   "testScreenTwo": {
-    "title": "Congrats",
-    "text": "You wired up navigation"
+    "title": "Character Details",
+    "status": "STATUS:",
+    "location": "LOCATION:",
+    "species": "SPECIES:",
+    "gender": "GENDER:"
   },
   "errorScreen": {
     "title": "Something went wrong!",

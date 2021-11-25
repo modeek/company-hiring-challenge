@@ -8,6 +8,13 @@ export const CharacterModel = types.model("Character").props({
   name: types.maybe(types.string),
   status: types.maybe(types.string),
   image: types.maybe(types.string),
+  gender: types.maybe(types.string),
+  species: types.maybe(types.string),
+  location: types.maybe(
+    types.model({
+      name: types.maybe(types.string),
+    }),
+  ),
 })
 
 type CharacterType = Instance<typeof CharacterModel>

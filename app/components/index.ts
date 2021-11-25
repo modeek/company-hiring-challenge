@@ -4,4 +4,5 @@ export * from "./icon/icon"
 export * from "./screen/screen"
 export * from "./text/text"
 export * from "./text-field/text-field"
-export * from './character-row-item/character-row-item'
+export * from "./character-row-item/character-row-item"
+export * from "./information-label/information-label"

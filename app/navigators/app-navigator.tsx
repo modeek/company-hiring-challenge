@@ -24,9 +24,17 @@ import { TestTwoScreen } from "../screens/test/test-two-screen"
  *   https://reactnavigation.org/docs/params/
  *   https://reactnavigation.org/docs/typescript#type-checking-the-navigator
  */
+
+export enum Routes {
+  CharacterList = "CharacterList",
+  CharacterDetails = "CharacterDetails",
+}
+
 export type NavigatorParamList = {
-  test: undefined
-  testTwo: undefined
+  [Routes.CharacterList]: undefined
+  [Routes.CharacterDetails]: {
+    characterId: number
+  }
 }
 
 // Documentation: https://reactnavigation.org/docs/stack-navigator/
@@ -38,10 +46,10 @@ const AppStack = () => {
       screenOptions={{
         headerShown: false,
       }}
-      initialRouteName="test"
+      initialRouteName={Routes.CharacterList}
     >
-      <Stack.Screen name="test" component={TestScreen} />
-      <Stack.Screen name="testTwo" component={TestTwoScreen} />
+      <Stack.Screen name={Routes.CharacterList} component={TestScreen} />
+      <Stack.Screen name={Routes.CharacterDetails} component={TestTwoScreen} />
     </Stack.Navigator>
   )
 }

@@ -61,4 +61,15 @@ export const color = {
    * white background
    */
   storybookTextColor: palette.black,
+
+  alive: palette.cyan,
+  dead: palette.pink,
+  unkown: palette.white,
+
+  backgroundLinearGradient: {
+    colors: [palette.green, palette.yellow],
+
+    // I don't need this but just for the demo
+    locations: [0, 1],
+  },
 }
